@@ -1,0 +1,144 @@
+body{
+    background: #5E0000;
+}
+#main{
+    background: #1A1A1A;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+#title{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #FFF;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+#img-div{
+    padding: 25px 25px 0px 25px;
+    background: #5E0000;
+    margin: 20px;
+}
+#image{
+ width: 100%;
+ display: block;
+ margin: auto;
+}
+#image-caption{
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #FFF;
+  padding-bottom: 15px;
+
+}
+#tribute-info{
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+#title-info{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #FFF;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+li{
+    font-size: 16px;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+
+}
+#link{
+    font-size:16px;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+@media (max-width: 460px) {
+    #main {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    #title{
+        font-size: 20px;
+    }
+    #image-caption{
+        font-size: 14px;
+    }
+    #title-info{
+        font-size: 20px;
+    }
+    li{
+        font-size: 14px;
+    }
+    #tribute-info{
+        padding-right: 30px;
+    }
+    #link{
+        font-size: 14px;
+        padding-left: 10px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    #main {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    #title{
+        font-size: 20px;
+    }
+    #image-caption{
+        font-size: 14px;
+    }
+    #title-info{
+        font-size: 20px;
+    }
+    li{
+        font-size: 14px;
+    }
+    #tribute-info{
+        padding-right: 30px;
+    }
+    #link{
+        font-size: 14px;
+        padding-left: 10px;
+    }
+
+}
+
+@media (max-width: 910px) {
+    #main {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    #title{
+        font-size: 20px;
+    }
+    #image-caption{
+        font-size: 14px;
+    }
+    #title-info{
+        font-size: 20px;
+    }
+    li{
+        font-size: 14px;
+    }
+    #tribute-info{
+        padding-right: 30px;
+    }
+    #link{
+        font-size: 14px;
+        padding-left: 10px;
+    }
+
+}
+
